@@ -1,6 +1,5 @@
-[Thu Mar 09 16:55:52.080563 2023] [mpm_winnt:notice] [pid 7740:tid 848] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Thu Mar 09 16:55:52.081563 2023] [mpm_winnt:notice] [pid 7740:tid 848] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Thu Mar 09 16:55:52.081563 2023] [core:notice] [pid 7740:tid 848] AH00094: Command line: 'C:\\Users\\degroote.medric\\Documents\\GitHub\\eindewerk/apache2/bin/httpd_usbwv8.exe -d C:/Users/degroote.medric/Documents/GitHub/eindewerk/apache2'
-[Thu Mar 09 16:55:52.105558 2023] [mpm_winnt:notice] [pid 7740:tid 848] AH00418: Parent: Created child process 13896
-[Thu Mar 09 16:55:52.823579 2023] [mpm_winnt:notice] [pid 13896:tid 812] AH00354: Child: Starting 64 worker threads.
-[Thu Mar 09 16:56:21.442352 2023] [:error] [pid 13896:tid 1348] [client ::1:57984] script 'C:/Users/degroote.medric/Documents/GitHub/eindewerk/root/eindwerk/homepagina.php' not found or unable to stat
+[Thu Mar 09 16:02:44.038511 2023] [mpm_winnt:notice] [pid 13708:tid 784] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Thu Mar 09 16:02:44.039796 2023] [mpm_winnt:notice] [pid 13708:tid 784] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Thu Mar 09 16:02:44.039796 2023] [core:notice] [pid 13708:tid 784] AH00094: Command line: 'C:\\Users\\degroote.medric\\Documents\\GitHub\\eindewerk/apache2/bin/httpd_usbwv8.exe -d C:/Users/degroote.medric/Documents/GitHub/eindewerk/apache2'
+[Thu Mar 09 16:02:44.048393 2023] [mpm_winnt:notice] [pid 13708:tid 784] AH00418: Parent: Created child process 7960
+[Thu Mar 09 16:02:44.496472 2023] [mpm_winnt:notice] [pid 7960:tid 796] AH00354: Child: Starting 64 worker threads.
