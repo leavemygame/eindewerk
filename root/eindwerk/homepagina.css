@@ -3,7 +3,7 @@
 {
     position: fixed;
     top: 0px;
-    left: 50px;
+    left: 5%;
 }
 
 .navigatiebalk
@@ -12,22 +12,19 @@ position: absolute;
 top: 0px;
 background-color: black;
 right: 50px;
-left: 305px;
-padding-top: 30px;
-padding-bottom: 22px;
-height: 50px;
-padding-left: 200px;
-
+left: 19%;
+padding-top: 1%;
+padding-bottom: 1%;
+height: 5%;
 }
-
-hr
+/* .navigatiebalk[a:first-child] werk niet
 {
-    margin-left: 50px;
-    margin-right: 50px;
-}
+padding-left: 20%;
+} */
+
 p
 {
-    margin-left: 25px;
+    padding-left: 3%;
 }
 h1
 {
@@ -35,7 +32,7 @@ h1
     font-weight: bold;
     text-align: center;
     color: red;
-    margin-top: 100px;
+    margin-top: 5%;
 
 }
 
@@ -45,27 +42,27 @@ a:hover
 }
 .navigatiebalk a{
     display: inline-block;
-    width: 250px;
+    width: 15%;
     color: white;
 }
 #openingsuren
 {
     float: right; 
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 40%;
 }
 #openingsuren td
 {
-    width: 100px;
+    width: 10%;
     text-align: center;
 }
 #blok3
 {
     width: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* padding-bottom: 10px;
+    padding-top: 10px; */
     margin-left: 25%;
     float: left;
     background-color: black;
@@ -74,38 +71,38 @@ a:hover
 /* infopagina */
 .info, .h1infopagina
 {
-    margin-left: 50px;
+    margin-left: 5%;
 }
 #h2infopagina
 {
-    margin-top: 50px;
+    margin-top: 5%;
     margin-left: 40%;
 }
 .h1infopagina
 {
-    margin-left: -25px;
-    padding-top: 20px;
+   
+    padding-top: 2%;
 }
 #infopaginainfo
 {
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 40%;
     float: left;
 }
 #mercedesimg
 {
     float: right;
-    margin-right: 50px;
-    margin-top: 50px;
-    width: 800px;
+    padding-left: 5%;
+    padding-right: 5%;
+   
    
 }
 #infopaginainfo2
 {
     float: right;
-    margin-left: 50px;
-    margin-right: 150px;
+   
+    padding-right: 5%;
     width: 40%;
 }
 
@@ -114,24 +111,48 @@ a:hover
   
     
     float: left;
-    margin-left: 50px;
-    margin-right: 50px;
- 
+    padding-left: 5%;
+    padding-right: 5%;
+ width: 45%;
   
 }
 
 #infopaginainfo3
 {
-    margin-left: 50px;
+    
     width: 40%;
     float: left;
 }
-#blok2
-{
-    margin-top: 500px;
-    margin-bottom: 250px;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* homepagina */
 .img1
 {

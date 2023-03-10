@@ -1,8 +1,0 @@
-::1 - - [09/Mar/2023:16:04:16 +0100] "GET / HTTP/1.1" 200 205
-::1 - - [09/Mar/2023:16:04:16 +0100] "GET /favicon.ico HTTP/1.1" 404 209
-::1 - - [09/Mar/2023:16:04:18 +0100] "GET /eindwerk/ HTTP/1.1" 200 970
-::1 - - [09/Mar/2023:16:04:21 +0100] "GET /eindwerk/homepagina.html HTTP/1.1" 200 5390
-::1 - - [09/Mar/2023:16:04:21 +0100] "GET /eindwerk/homepagina.css HTTP/1.1" 200 4881
-::1 - - [09/Mar/2023:16:04:21 +0100] "GET /eindwerk/afbeeldingen/Knipsel_garage_50.png HTTP/1.1" 200 50806
-::1 - - [09/Mar/2023:16:04:21 +0100] "GET /eindwerk/afbeeldingen/imgvolvohomepagina%20(1)%20(2).jpg HTTP/1.1" 200 56722
-::1 - - [09/Mar/2023:16:04:21 +0100] "GET /eindwerk/afbeeldingen/fotoopelhp1.jpg HTTP/1.1" 200 30732
