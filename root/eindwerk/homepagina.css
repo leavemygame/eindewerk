@@ -2,17 +2,21 @@
 .logo
 {
     position: fixed;
+    float: left;
     top: 0px;
-    left: 5%;
+    padding-left: 5%;
+    width: 25%;
+    box-sizing: border-box;
 }
 
 .navigatiebalk
 {
-position: absolute;
-top: 0px;
+/* position: relative; */
+top: 0%;
 background-color: black;
-right: 50px;
-left: 19%;
+float: right;
+box-sizing: border-box;
+width: 75%;
 padding-top: 1%;
 padding-bottom: 1%;
 height: 5%;
@@ -158,15 +162,16 @@ a:hover
 {
     
     float: left;
-    width: 50%;
+    width: 40%;
+    margin-left: 1;
     
 }
 #container
 {
    margin-top: 50px;
     height: 400px;
-    margin-left: 150px;
-    margin-right: 200px;
+    /* margin-left: 150px;
+    margin-right: 200px; */
 }
 .tekst
 {
@@ -177,15 +182,15 @@ a:hover
 .img2
 {
     float: right;
-    width: 50%;
+    width: 40%;
     
 }
 #container2
 {
     
-    height: 400px;
-    margin-left: 150px;
-    margin-right: 50px;
+    height:40%;
+    /* margin-left: 150px;
+    margin-right: 50px; */
 }
 .tekst2
 {
