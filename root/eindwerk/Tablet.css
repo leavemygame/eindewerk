@@ -19,6 +19,7 @@ box-sizing: border-box;
 width: 75%;
 padding-top: 1%;
 padding-bottom: 1%;
+padding-left: 5%;
 height: 5%;
 }
 /* .navigatiebalk[a:first-child] werk niet
@@ -51,7 +52,7 @@ a:hover
 }
 #openingsuren
 {
-    float: right; 
+    float: right;
     /* margin-top: 10px; */
     width: 40%;
 }
@@ -62,12 +63,12 @@ a:hover
 }
 #blok3
 {
-    width: 50%;
+    width: 75%;
     margin-top: 5%;
     margin-bottom: 5%;
     /* padding-bottom: 10px;
     padding-top: 10px; */
-    margin-left: 25%;
+    margin-left: 12.5%;
     float: left;
     background-color: black;
     color: white;
@@ -84,75 +85,55 @@ a:hover
 }
 .h1infopagina
 {
-   
+
     padding-top: 2%;
 }
 #infopaginainfo
 {
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 40%;
+    /* padding-left: 5%; */
+    /* padding-right: 2%; */
+    width: 45%;
     float: left;
 }
 #mercedesimg
 {
     float: right;
-    padding-left: 5%;
-    padding-right: 5%;
-   
-   
+    padding-top: 5%;
+    /* padding-left: 2%; */
+    /* padding-right: 5%; */
+
+
 }
 #infopaginainfo2
 {
     float: right;
-   
-    padding-right: 5%;
+
+    /* padding-right: 5%; */
     width: 40%;
 }
 
 #bmwimg
 {
-  
-    
+
+
     float: left;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 20%; */
  width: 45%;
-  
+
 }
 
 #infopaginainfo3
 {
-    
-    width: 40%;
+
+    width: 50%;
     float: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#mercedes
+{
+    margin-bottom: 5%;
+}
 
 
 
@@ -160,11 +141,11 @@ a:hover
 /* homepagina */
 .img1
 {
-    
+
     float: left;
     width: 40%;
-    margin-left: 1;
-    
+    padding-left: 5%;
+
 }
 #container
 {
@@ -175,19 +156,20 @@ a:hover
 }
 .tekst
 {
-    
+
     float: right;
     width: 40%;
 }
 .img2
 {
     float: right;
-    width: 40%;
-    
+    padding-right: 20%;
+    width: 30%;
+
 }
 #container2
 {
-    
+
     height:40%;
     /* margin-left: 150px;
     margin-right: 50px; */
@@ -195,6 +177,7 @@ a:hover
 .tekst2
 {
     margin-top: 25px;
+    padding-left: 5%;
     float: left;
     width: 40%;
 }
@@ -205,25 +188,22 @@ a:hover
 
 
 
-
-
-
 /*
 contactpagina
 */
 
 #groteproblemen
 {
-    width: 30%;
+    width: 40%;
     float: left;
-    margin-left: 400px;
+    padding-left: 10%;
 }
 
 #kleineproblemen
 {
     width: 40%;
     float: right;
-    margin-right: 100px;
+    padding-right: 10%;
 }
 #problemen
 {
@@ -236,11 +216,14 @@ contactpagina
 
 img[title="klokfoto"]
 {
-    
-    float: center;
-    margin-left: 550px;
-    margin-bottom: 100px;
+
+    width: 50%;
+    margin-left: 25%;
 }
+
+
+
+
 /*
 afspraak maken
 */
@@ -248,16 +231,18 @@ afspraak maken
 #afspraakmaken
 {
     margin-top: 50px;
-    margin-left: 650px;
-    margin-right: 640px;
+    /* margin-left: 650px;
+    margin-right: 640px; */
+    margin-left: 25%;
     background-color: black;
     padding: 20px;
+    width: 45%;
 }
 
 #afspraakmaken table
 {
     background-color: white;
-   
+
 }
 
 #afspraakformulier
@@ -265,7 +250,7 @@ afspraak maken
     margin-top: 100px;
     display: block;
     margin-left: 400px;
-    
+
 }
 
 input
@@ -274,11 +259,13 @@ input
     width: 200px;
 }
 #mededelingafspraakmaken
-{   
-    margin-left: 30%;
-    margin-top: 50px;    
+{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 50px;
 
 }
+
 
 
 /*
@@ -307,38 +294,50 @@ carrosserie
 img[title="imgcarrosserie1"]
 {
     float: right;
-    margin-right: 150px;
-    margin-top: 100px;
+    width: 50%;
+    margin-top: 5%;
+    /* margin-right: 150px;
+    margin-top: 100px; */
 }
 img[title="imgcarrosserie2"]
 {
     float: left;
-    
-    margin-left: 90px;
-    margin-top: 200px;
+    width: 50%;
+    /* margin-left: 90px;
+    margin-top: 200px; */
 }
 .img1uitleg
 {
     float: left;
-    width: 40%;
-    margin-top: 150px;
-    margin-left: 100px;
-    
+    width: 50%;
+    /* margin-top: 150px;
+    margin-left: 100px; */
+
 }
 
 #img2uitleg
 {
     float: right;
-    margin-top: 150px;
-    width: 30%;
-    
+    /* margin-top: 150px; */
+    width: 50%;
+
     text-align: right;
-    margin-right: 150px;
+    /* margin-right: 150px; */
 }
 #stappenplan
 {
     text-align: left;
 }
+#carrosserierood
+{
+    margin-bottom: 5%;
+}
+#imagepolijst
+{
+    padding: 1%;
+}
+
+
 
 
 /*
@@ -349,7 +348,7 @@ interieur
 #interieur1
 {
     text-align: center;
-    
+
     padding-top: 25px;
 }
 #interieur2
@@ -380,34 +379,40 @@ interieur
 img[title="multimedia"]
 {
     float: left;
-    margin-left: 100px;
+    /* margin-left: 100px;
     margin-top: 50px;
-   
-    margin-right: 75px;
+
+    margin-right: 75px; */
+    width: 50%;
+    margin-top: 5%;
 }
 #multimediaschermuitleg
 {
     float: right;
-    margin-top: 25px;
+    /* margin-top: 25px;
     margin-right: 200px;
-    margin-left: 200px;
+    margin-left: 200px; */
     text-align: right;
-    
-    
+    width: 50%;
+
+
 }
 #ledinterieuruitleg
 {
-
+/* 
 margin-left: 150px;
-margin-top: 50px;
+margin-top: 50px; */
 float: left;
+width: 40%;
 
 }
 img[title="ledinterieur"]
 {
     float: right;
-    margin-top: 50px;
+    width: 50%;
+    margin-top: 5%;
+    /* margin-top: 50px;
     margin-left: 150px;
-    margin-right: 250px;
-    
+    margin-right: 250px; */
+
 }
