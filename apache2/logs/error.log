@@ -1,0 +1,5 @@
+[Thu Apr 20 16:39:27.794231 2023] [mpm_winnt:notice] [pid 18292:tid 792] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Thu Apr 20 16:39:27.794231 2023] [mpm_winnt:notice] [pid 18292:tid 792] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Thu Apr 20 16:39:27.794231 2023] [core:notice] [pid 18292:tid 792] AH00094: Command line: 'C:\\Users\\degroote.medric\\Documents\\GitHub\\eindewerk/apache2/bin/httpd_usbwv8.exe -d C:/Users/degroote.medric/Documents/GitHub/eindewerk/apache2'
+[Thu Apr 20 16:39:27.794231 2023] [mpm_winnt:notice] [pid 18292:tid 792] AH00418: Parent: Created child process 9540
+[Thu Apr 20 16:39:28.594210 2023] [mpm_winnt:notice] [pid 9540:tid 808] AH00354: Child: Starting 64 worker threads.
