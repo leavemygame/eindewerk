@@ -9,11 +9,11 @@ if (empty($_POST["gebruiker"]) OR (empty($_POST["paswoord"])))
 else
 {
     include_once("connect.php"); //once want je zal hier maar één keer de connectie maken
-    $username = $_POST['gebruiker'];
-    $password = $_POST['paswoord'];
+    $Username = $_POST['gebruiker'];
+    $Password = $_POST['paswoord'];
     // controleer de databank: mag de gebruiker inloggen?
     //SELECT aanvullen
-    $query = "SELECT user, 'password' FROM login WHERE user = '$username' AND password = '$password'";
+    $query = "SELECT Username, 'Password' FROM Inloggegevens WHERE Username = '$Username' AND Password = '$Password'";
     $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
     $count = mysqli_num_rows($result);
         

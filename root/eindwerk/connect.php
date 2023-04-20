@@ -1,6 +1,6 @@
 <?php
     $servername = "localhost";
-    $DB = "gebruikers";
+    $DB = "test";
     $user= "root";
     $password = "usbw";
 
