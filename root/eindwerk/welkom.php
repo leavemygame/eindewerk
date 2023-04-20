@@ -31,6 +31,10 @@ else
 
     <h1>Garage Degroote</h1>
     <hr>
-    hello
+    <ul>
+        <li>afpraken raadplegen, hierbinnen afspraken maken + aanpassen</li>
+        <li>account wijzigen, hier adres of auto wijzigen</li>
+        <li></li>
+    </ul>
 </body>
 </html>
