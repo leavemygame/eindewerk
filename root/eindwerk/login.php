@@ -17,9 +17,9 @@ if (isset($_GET["message"]))
     <link rel="stylesheet" media="screen and (min-width:600px) and (max-width:1500px)" href="Tablet.css">
 </head>
 <body>
-    <div class="logo">
+    <!-- <div class="logo">
         <a href="homepagina.html"><img src="afbeeldingen/Knipsel_garage_50.png" alt="logo"></a>
-    </div>
+    </div> -->
 
     <h1>Garage Degroote</h1>
     <hr>
@@ -41,6 +41,11 @@ if (isset($_GET["message"]))
     Paswoord: <input type="text" name="paswoord"><br>
     <input id ="submit" type="submit" name="login" value="LOGIN">
 </form>
+
+<form action="registreer.php" method="post">
+    <input type="submit" name="Registreer" value="REGISTREER">
+</form>
+    
 
 <form action="uitloggen.php" method="post">
     <input type="submit" name="uitloggen" value="UITLOGGEN">
