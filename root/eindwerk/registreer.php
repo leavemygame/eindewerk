@@ -11,7 +11,7 @@
     <form action="nieuweUser.php" method="post">
         Gebruikersnaam: <<input type="text" name="gebruiker" ><br>
         paswoord: <input type="text" name="paswoord"><br>
-        Check paswoord: <input type="text" name="check paswoord"><br>
+        Check paswoord: <input type="text" name="checkpaswoord"><br>
         <input type="submit" id="submit" name="login" value="Registreer">
     </form>
     

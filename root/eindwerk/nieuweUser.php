@@ -1,7 +1,7 @@
 <?php
 //zijn de velden ingevuld? via empty or isset
 
-if (empty($_post["gebruiker"]) or (empty($_post["paswoord"])))
+if (empty($_POST["gebruiker"]) OR (empty($_POST["paswoord"])))
 {
     header('location: login.php?message="Vul alle gegevens in."');
 }
@@ -11,12 +11,12 @@ else
 
     $username = $_POST['gebruiker'];
     $password = $_POST['paswoord'];
-    $passwordcheck = $_POST['check paswoord'];
+    $passwordcheck = $_POST['checkpaswoord'];
 
     if ($password == $passwordcheck)
     {
     //controleer of de gebruikersnaam al bestaat
-        $query = "SELECT Username FROM inloggegevens WHERE gebruikersnaam = '$username'";
+        $query = "SELECT Username FROM inloggegevens WHERE Username = '$username'";
         $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
         $count = mysqli_num_rows($result);
 
@@ -26,7 +26,7 @@ else
             $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
 
 
-            $query = "SELECT Username, Password FROM inloggegevens WHERE Username='$username' and Password = '$password'";
+            $query = "SELECT Username, 'Password' FROM inloggegevens WHERE Username='$username' and 'Password' = '$password'";
             $result = mysqli_query($conn, $query) or die (mysqli_error($conn));
             $count = mysqli_num_rows($result);
             
