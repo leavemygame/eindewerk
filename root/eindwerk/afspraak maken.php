@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>afspraak maken</title>
-    <link rel="stylesheet" media="screen and (min-width:1500px)" href="full screen.css">
-    <link rel="stylesheet" media="screen and (max-width:600px)" href="phone.css">
-    <link rel="stylesheet" media="screen and (min-width:600px) and (max-width:1500px)" href="Tablet.css">
+   <!-- <link rel="stylesheet" media="screen and (min-width:1500px)" href="full screen.css"> -->
+   <link rel="stylesheet" media="screen and (max-width:1200px)" href="phone.css">
+   <link rel="stylesheet" media="screen and (min-width:1200px) and (max-width:2000px)" href="Tablet.css">
 </head>
+
 <script>
     function afspraak()
     {
@@ -26,13 +28,14 @@
 
 </div>
 <div class="navigatiebalk">
-    <a href="infopagina.html">Info</a>
-    <a href="contactpagina.html">Contact</a>
-    <a href="afspraak maken.html">Afspraak maken</a>
-    <a href="carrosserie.html">Carrosserie</a>
-    <a href="interieur.html">Interieur</a>
-    <a href="login.php">Login</a>
-</div>
+        <a href="infopagina.html">Info</a>
+        <a href="contactpagina.html">Contact</a>
+        <a href="afspraak maken.php">Afspraak maken</a>
+        <a href="carrosserie.html">Carrosserie</a>
+        <a href="interieur.html">Interieur</a>
+        <a href="login.php">Login</a>
+
+    </div>
 
 <br>
 <div class="info">   
@@ -57,7 +60,14 @@
         </ul>
     </div>
 
-<div id="afspraakmaken">
+    <?php 
+ session_start();
+
+if ($_SESSION["ingelogd"]=="ok")
+{
+    ?>
+
+    <div id="afspraakmaken">
 <table border="3" width="500px" height="auto">
 <form id="afspraakformulier">
 <tr>
@@ -88,6 +98,14 @@
 </form>
 </table>
 </div>
+<?php
+}
+else
+{
+   
+}   
+?>
+
 
 
 

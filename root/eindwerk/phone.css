@@ -248,6 +248,8 @@ afspraak maken
     background-color: black;
     padding: 20px;
     width: 100%;
+
+    visibility: hidden;
 }
 
 #afspraakmaken table
@@ -429,4 +431,14 @@ img[title="ledinterieur"]
     float: right;
     */
 
+}
+
+
+
+/* login */
+LOGIN
+{
+    width: 50%;
+    margin-left: 25%;
+    border: solid 2px black;
 }
