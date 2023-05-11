@@ -44,9 +44,32 @@ else
     <h1>Garage Degroote </h1>
     <hr>
      </div>
+
+     <form action="INFOWEERGEVEN" style="border: 2px solid black">
+        <legend>Zie hier al je gegevens</legend>
+
+        <label for="naam" id="name" readonly>naam</label>
+        <input type="text" id="name">
+        <br>
+        <label for="voornaam" id="voornaam" readonly>voornaam</label>
+        <input type="text" id="voornaam">
+        <br>
+        <label for="auto" id="auto">automerk</label>
+        <input type="text" id="auto">
+        <br>
+        <label for="automodel" id="automodel">automodel</label>
+        <input type="text" id="automodel">
+        <br>
+        <label for="adres" id="adres">adres</label>
+        <input type="text" id="adres">
+     </form>
+     <form action="afspraken">
+        <legend>afspraken</legend>
+     </form>
     <ul>
-        <li>afpraken raadplegen, hierbinnen afspraken maken + aanpassen</li>
+       
         <li>account wijzigen, hier adres of auto wijzigen</li>
+        <li>afpraken raadplegen, hierbinnen afspraken maken + aanpassen</li>
         <li></li>
     </ul>
 </body>
