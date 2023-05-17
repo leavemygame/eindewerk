@@ -48,20 +48,20 @@ else
      <form action="INFOWEERGEVEN" style="border: 2px solid black">
         <legend>Zie hier al je gegevens</legend>
 
-        <label for="naam" id="name" readonly>naam</label>
-        <input type="text" id="name">
+        <label for="naam" id="name" readonly>Naam</label>
+        <input type="text" id="name" value="<?php echo $_SESSION['naam']?>">
         <br>
         <label for="voornaam" id="voornaam" readonly>voornaam</label>
-        <input type="text" id="voornaam">
+        <input type="text" id="voornaam" value="<?php echo $_SESSION['first_name']?>">
         <br>
         <label for="auto" id="auto">automerk</label>
-        <input type="text" id="auto">
+        <input type="text" id="auto" value="<?php echo $_SESSION['car']?>">
         <br>
         <label for="automodel" id="automodel">automodel</label>
-        <input type="text" id="automodel">
+        <input type="text" id="automodel" value="<?php echo $_SESSION['carmodel']?>">
         <br>
         <label for="adres" id="adres">adres</label>
-        <input type="text" id="adres">
+        <input type="text" id="adres" value="<?php echo $_SESSION['adresse']?>">
      </form>
      <form action="afspraken">
         <legend>afspraken</legend>

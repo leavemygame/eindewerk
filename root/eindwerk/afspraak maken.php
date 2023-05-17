@@ -62,9 +62,10 @@
 
     <?php 
  session_start();
-
 if ($_SESSION["ingelogd"]=="ok")
 {
+    print("ingelogd");
+
     ?>
 
     <div id="afspraakmaken">
