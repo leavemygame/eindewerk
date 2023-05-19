@@ -25,6 +25,11 @@ else
     <link rel="stylesheet" media="screen and (max-width:1200px)" href="phone.css">
     <link rel="stylesheet" media="screen and (min-width:1200px) and (max-width:2000px)" href="Tablet.css">
 </head>
+
+
+
+  
+
 <body>
 <   <div class="logo">
         <a href="homepagina.html"><img src="afbeeldingen/Knipsel_garage_50.png" alt="logo"></a>
@@ -45,9 +50,10 @@ else
     <hr>
      </div>
 
-     <form action="INFOWEERGEVEN" style="border: 2px solid black">
+     <form action="update.php" method="POST" style="border: 2px solid black">
         <legend>Zie hier al je gegevens</legend>
 
+        <br>
         <label for="naam" id="name" readonly>Naam</label>
         <input type="text" id="name" value="<?php echo $_SESSION['naam']?>">
         <br>
@@ -62,7 +68,10 @@ else
         <br>
         <label for="adres" id="adres">adres</label>
         <input type="text" id="adres" value="<?php echo $_SESSION['adresse']?>">
+
+        <button onclick="update()">update gegevens</button>
      </form>
+     
      <form action="afspraken">
         <legend>afspraken</legend>
      </form>
