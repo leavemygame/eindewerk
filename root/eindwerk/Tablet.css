@@ -250,7 +250,7 @@ afspraak maken
 #afspraakformulier
 {
     margin-top: 100px;
-    display: block;
+    display: none;
     margin-left: 400px;
 
 }

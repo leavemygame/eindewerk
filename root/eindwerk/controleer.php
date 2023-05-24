@@ -30,6 +30,8 @@ else
           session_start();
             $row = mysqli_fetch_assoc($result);
           $_SESSION["ingelogd"]="ok";
+          $_SESSION["Username"] = $row["Username"];
+          $_SESSION["Password"] = $row["Password"];
           $_SESSION['naam'] = $row["naam"];
           $_SESSION['first_name'] = $row["voornaam"];
           $_SESSION['car'] = $row["auto"];

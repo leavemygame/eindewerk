@@ -60,52 +60,43 @@
         </ul>
     </div>
 
-    <?php 
- session_start();
-if ($_SESSION["ingelogd"]=="ok")
-{
-    print("ingelogd");
+<!-- <div id="afspraakmaken"> -->
 
+    <?php
+            session_start();
+            if (isset($_SESSION["ingelogd"]) && $_SESSION["ingelogd"]=="ok") {
+            echo '<table border="3" width="500px" height="auto" class="tableAfspraakMaken">'.
+            '<form id="afspraakformulier">'.
+            '<tr>'.
+                '<td><label for="naam">Naam: </label></td>'.
+                '<td><input type="text" name="naam" id="naam"></td>'.
+            '</tr>'.
+            '<tr>'.
+                '<td><label for="Voornaam">Voornaam: </label></td>'.
+                '<td><input type="text" name="Voornaam" id="Voornaam"></td>'.
+            '</tr>'.
+            '<tr>'.
+            '<td><label for="dag">Welke dag? </label></td>'.
+            '<td><input type="date" name="dag" id="dag"></td>'.
+            '</tr>'.
+            '<tr>'.
+            '<td><label for="uur">Rond welk uur? </label></td>'.
+            '<td><input type="time" name="uur" id="uur"></td>'.
+            '</tr>'.
+            '<tr>'.
+            '<td><label for="merk wagen">Welk automerk? </label></td>'.
+            '<td><input type="text" name="merk wagen" id="merk wagen"></td>'.
+            '</tr>'.
+            
+            '<tr>'.
+            '<td colspan="2" align="center"><button onclick="afspraak()">afspraak maken</button></td>'.
+            '</tr>'.
+            
+            '</form>'.
+            '</table>';
+        }
     ?>
-
-    <div id="afspraakmaken">
-<table border="3" width="500px" height="auto">
-<form id="afspraakformulier">
-<tr>
-    <td><label for="naam">Naam: </label></td>
-    <td><input type="text" name="naam" id="naam"></td>
-</tr>
-<tr>
-    <td><label for="Voornaam">Voornaam: </label></td>
-    <td><input type="text" name="Voornaam" id="Voornaam"></td>
-</tr>
-<tr>
-    <td><label for="dag">Welke dag? </label></td>
-    <td><input type="date" name="dag" id="dag"></td>
-</tr>
-<tr>
-    <td><label for="uur">Rond welk uur? </label></td>
-    <td><input type="time" name="uur" id="uur"></td>
-</tr>
-<tr>
-    <td><label for="merk wagen">Welk automerk? </label></td>
-    <td><input type="text" name="merk wagen" id="merk wagen"></td>
-</tr>
-
-<tr>
-    <td colspan="2" align="center"><button onclick="afspraak()">afspraak maken</button></td>
-</tr>
-
-</form>
-</table>
-</div>
-<?php
-}
-else
-{
-   
-}   
-?>
+<!-- </div> -->
 
 
 

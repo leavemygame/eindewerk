@@ -55,19 +55,19 @@ else
 
         <br>
         <label for="naam" id="name" readonly>Naam</label>
-        <input type="text" id="name" value="<?php echo $_SESSION['naam']?>">
+        <input type="text" id="name" name="naam" value="<?php echo $_SESSION['naam']?>">
         <br>
         <label for="voornaam" id="voornaam" readonly>voornaam</label>
-        <input type="text" id="voornaam" value="<?php echo $_SESSION['first_name']?>">
+        <input type="text" id="voornaam" name="voornaam" value="<?php echo $_SESSION['first_name']?>">
         <br>
         <label for="auto" id="auto">automerk</label>
-        <input type="text" id="auto" value="<?php echo $_SESSION['car']?>">
+        <input type="text" id="auto" name="automerk" value="<?php echo $_SESSION['car']?>">
         <br>
         <label for="automodel" id="automodel">automodel</label>
-        <input type="text" id="automodel" value="<?php echo $_SESSION['carmodel']?>">
+        <input type="text" id="automodel" name="automodel" value="<?php echo $_SESSION['carmodel']?>">
         <br>
         <label for="adres" id="adres">adres</label>
-        <input type="text" id="adres" value="<?php echo $_SESSION['adresse']?>">
+        <input type="text" id="adres" name="adres" value="<?php echo $_SESSION['adresse']?>">
 
         <button onclick="update()">update gegevens</button>
      </form>
@@ -81,5 +81,35 @@ else
         <li>afpraken raadplegen, hierbinnen afspraken maken + aanpassen</li>
         <li></li>
     </ul>
+
+    <?php 
+    // function update(){
+    //     include_once("connect.php");
+    //     if (isset($_SESSION["Username"]) && isset($_SESSION["Password"]) && isset($_POST["naam"]) && isset($_POST["voornaam"])&& isset($_POST["automerk"])&& isset($_POST["automodel"])&& isset($_POST["adres"])) {
+    //         $Username = $_SESSION["Username"];
+    //         $Password = $_SESSION["Password"];
+    //         $naam = $_POST["naam"];
+    //         $voornaam = $_POST["voornaam"];
+    //         $automerk = $_POST["automerk"];
+    //         $model = $_POST["automodel"];
+    //         $adres = $_POST["adres"];
+            
+    //         $query ="UPDATE Inloggegevens set naam='$naam', voornaam='$voornaam', automerk='$automerk', automodel= '$model', adres='$adres' WHERE Username = '$Username' AND Password = '$Password'";
+            
+                
+    //         $result = mysqli_query($conn, $query);
+            
+            
+    //         if($conn->query($query)===true){
+    //             echo "record updated succesfully";
+    //         }
+            
+            
+    //         $conn->close();
+    //     }
+
+    // }
+    
+    ?>
 </body>
 </html>

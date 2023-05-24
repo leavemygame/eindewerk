@@ -225,25 +225,15 @@ afspraak maken
 #afspraakmaken
 {
     margin-top: 50px;
-    margin-left: 650px;
-    margin-right: 640px;
+    /* margin-left: 650px;
+    margin-right: 640px; */
     background-color: black;
     padding: 20px;
 }
-
-#afspraakmaken table
+/* #afspraakmaken2
 {
-    background-color: white;
-   
-}
-
-#afspraakformulier
-{
-    margin-top: 100px;
-    display: block;
-    margin-left: 400px;
-    
-}
+    visibility: hidden;
+} */
 
 input
 {
@@ -388,3 +378,4 @@ img[title="ledinterieur"]
     margin-right: 250px;
     
 }
+

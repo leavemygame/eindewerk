@@ -261,7 +261,7 @@ afspraak maken
 #afspraakformulier
 {
     margin-top: 100px;
-    display: block;
+    /* display: block; */
     margin-left: 400px;
 
 }
