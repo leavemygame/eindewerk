@@ -72,27 +72,27 @@ else
         <button type="submit">update gegevens</button>
      </form>
      
-     <form action="afspraken">
+     <form action="afspraken" style="border: 2px solid black">
         <legend>afspraken</legend>
        
                 
            
             <label for="dag">Welke dag? </label>
             <input type="date" name="dag" id="dag" value="<?php echo $_SESSION['dag']?>">
-           
+           <br>
             <label for="uur"> welk uur? </label>
             <input type="time" name="uur" id="uur" value="<?php echo $_SESSION['uur']?>">
-          
+          <br>
             <label for="merk wagen">Welk auto? </label>
            <input type="text" name="merk wagen" id="merk wagen" value="<?php echo $_SESSION['automerk']?>"> 
            
      </form>
-    <ul>
+    <!-- <ul>
        
         <li>account wijzigen, hier adres of auto wijzigen</li>
         <li>afpraken raadplegen, hierbinnen afspraken maken + aanpassen</li>
         <li></li>
-    </ul>
+    </ul> -->
 
     <?php 
     // function update(){

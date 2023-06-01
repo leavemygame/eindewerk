@@ -15,7 +15,7 @@
         
         
         if($conn->query($query)===true){
-            echo "record updated succesfully";
+            echo '<script>alert("Afspraak gemaakt")</script>';
             $_SESSION["automerk"]=$automerk ;
             $_SESSION["uur"]=$tijdstip ;
             $_SESSION["dag"]=$datum ;

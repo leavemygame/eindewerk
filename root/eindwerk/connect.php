@@ -14,6 +14,6 @@
     }
     else
     {
-        print "Connection";
+        //print "Connection";
     }
 ?>
