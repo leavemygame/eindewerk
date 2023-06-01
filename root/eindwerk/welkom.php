@@ -74,6 +74,18 @@ else
      
      <form action="afspraken">
         <legend>afspraken</legend>
+       
+                
+           
+            <label for="dag">Welke dag? </label>
+            <input type="date" name="dag" id="dag" value="<?php echo $_SESSION['dag']?>">
+           
+            <label for="uur"> welk uur? </label>
+            <input type="time" name="uur" id="uur" value="<?php echo $_SESSION['uur']?>">
+          
+            <label for="merk wagen">Welk auto? </label>
+           <input type="text" name="merk wagen" id="merk wagen" value="<?php echo $_SESSION['automerk']?>"> 
+           
      </form>
     <ul>
        

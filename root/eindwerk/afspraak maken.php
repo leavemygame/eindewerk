@@ -66,14 +66,14 @@
             session_start();
             if (isset($_SESSION["ingelogd"]) && $_SESSION["ingelogd"]=="ok") {
             echo '<table border="3" width="500px" height="auto" class="tableAfspraakMaken">'.
-            '<form id="afspraakformulier">'.
+            '<form id="afspraakformulier" method="POST" action="updateafspraak.php">'.
             '<tr>'.
                 '<td><label for="naam">Naam: </label></td>'.
-                '<td><input type="text" name="naam" id="naam"></td>'.
+                '<td><input type="text" name="naam" id="naam" value="'. $_SESSION["naam"].'"></td>'.
             '</tr>'.
             '<tr>'.
                 '<td><label for="Voornaam">Voornaam: </label></td>'.
-                '<td><input type="text" name="Voornaam" id="Voornaam"></td>'.
+                '<td><input type="text" name="Voornaam" id="Voornaam" value="'. $_SESSION["first_name"].'"></td>'.
             '</tr>'.
             '<tr>'.
             '<td><label for="dag">Welke dag? </label></td>'.
@@ -85,11 +85,11 @@
             '</tr>'.
             '<tr>'.
             '<td><label for="merk wagen">Welk automerk? </label></td>'.
-            '<td><input type="text" name="merk wagen" id="merk wagen"></td>'.
+            '<td><input type="text" name="automerk" id="merk wagen" value="'. $_SESSION["car"].'" </td>'.
             '</tr>'.
             
             '<tr>'.
-            '<td colspan="2" align="center"><button onclick="afspraak()">afspraak maken</button></td>'.
+            '<td colspan="2" align="center"><button type="submit">afspraak maken</button></td>'.
             '</tr>'.
             
             '</form>'.

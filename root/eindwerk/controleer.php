@@ -20,7 +20,7 @@ else
 
     // controleer de databank: mag de gebruiker inloggen?
     //SELECT aanvullen
-    $query = "SELECT Username, 'Password', naam,voornaam,auto,automodel,adres FROM Inloggegevens WHERE Username = '$Username' AND Password = '$Password'";
+    $query = "SELECT UserID, Username, 'Password', naam,voornaam,auto,automodel,adres FROM Inloggegevens WHERE Username = '$Username' AND Password = '$Password'";
     
     $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
     $count = mysqli_num_rows($result);
@@ -30,6 +30,7 @@ else
           session_start();
             $row = mysqli_fetch_assoc($result);
           $_SESSION["ingelogd"]="ok";
+          $_SESSION["UserID"] = $row["UserID"];
           $_SESSION["Username"] = $row["Username"];
           $_SESSION["Password"] = $row["Password"];
           $_SESSION['naam'] = $row["naam"];
