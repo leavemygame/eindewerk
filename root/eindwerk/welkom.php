@@ -69,7 +69,7 @@ else
         <label for="adres" id="adres">adres</label>
         <input type="text" id="adres" name="adres" value="<?php echo $_SESSION['adresse']?>">
 
-        <button onclick="update()">update gegevens</button>
+        <button type="submit">update gegevens</button>
      </form>
      
      <form action="afspraken">
