@@ -1,5 +1,5 @@
-[Sun May 28 18:10:21.891801 2023] [mpm_winnt:notice] [pid 15240:tid 808] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Sun May 28 18:10:21.892940 2023] [mpm_winnt:notice] [pid 15240:tid 808] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Sun May 28 18:10:21.892940 2023] [core:notice] [pid 15240:tid 808] AH00094: Command line: 'C:\\Users\\degroote.medric\\Documents\\GitHub\\eindewerk/apache2/bin/httpd_usbwv8.exe -d C:/Users/degroote.medric/Documents/GitHub/eindewerk/apache2'
-[Sun May 28 18:10:21.899476 2023] [mpm_winnt:notice] [pid 15240:tid 808] AH00418: Parent: Created child process 1912
-[Sun May 28 18:10:22.518759 2023] [mpm_winnt:notice] [pid 1912:tid 788] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 01 10:42:38.559966 2023] [mpm_winnt:notice] [pid 13184:tid 688] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Thu Jun 01 10:42:38.559966 2023] [mpm_winnt:notice] [pid 13184:tid 688] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Thu Jun 01 10:42:38.559966 2023] [core:notice] [pid 13184:tid 688] AH00094: Command line: 'C:\\Users\\degroote.medric\\Documents\\GitHub\\eindewerk/apache2/bin/httpd_usbwv8.exe -d C:/Users/degroote.medric/Documents/GitHub/eindewerk/apache2'
+[Thu Jun 01 10:42:38.565963 2023] [mpm_winnt:notice] [pid 13184:tid 688] AH00418: Parent: Created child process 1408
+[Thu Jun 01 10:42:39.411442 2023] [mpm_winnt:notice] [pid 1408:tid 788] AH00354: Child: Starting 64 worker threads.
