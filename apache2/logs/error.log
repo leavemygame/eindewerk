@@ -1,5 +1,4 @@
-[Thu Jun 15 23:36:13.237816 2023] [mpm_winnt:notice] [pid 15448:tid 804] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Thu Jun 15 23:36:13.237816 2023] [mpm_winnt:notice] [pid 15448:tid 804] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Thu Jun 15 23:36:13.237816 2023] [core:notice] [pid 15448:tid 804] AH00094: Command line: 'C:\\Users\\Redux Gamer\\Documents\\taken 2022-2023\\informatica\\webdesign\\eindwerk\\eindwerk_medric\\eindwerk\\eindewerk/apache2/bin/httpd_usbwv8.exe -d C:/Users/Redux Gamer/Documents/taken 2022-2023/informatica/webdesign/eindwerk/eindwerk_medric/eindwerk/eindewerk/apache2'
-[Thu Jun 15 23:36:13.243332 2023] [mpm_winnt:notice] [pid 15448:tid 804] AH00418: Parent: Created child process 14004
-[Thu Jun 15 23:36:14.005555 2023] [mpm_winnt:notice] [pid 14004:tid 788] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 01 18:49:18.461545 2023] [mpm_winnt:notice] [pid 4724:tid 656] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Tue Aug 01 18:49:18.462047 2023] [mpm_winnt:notice] [pid 4724:tid 656] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Tue Aug 01 18:49:18.462047 2023] [core:notice] [pid 4724:tid 656] AH00094: Command line: 'C:\\Users\\Redux Gamer\\Documents\\taken 2022-2023\\informatica\\webdesign\\eindwerk\\eindwerk_medric\\eindwerk\\eindewerk/apache2/bin/httpd_usbwv8.exe -d C:/Users/Redux Gamer/Documents/taken 2022-2023/informatica/webdesign/eindwerk/eindwerk_medric/eindwerk/eindewerk/apache2'
+[Tue Aug 01 18:49:18.467587 2023] [mpm_winnt:notice] [pid 4724:tid 656] AH00418: Parent: Created child process 11000
